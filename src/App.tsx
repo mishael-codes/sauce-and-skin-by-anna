@@ -1,7 +1,6 @@
 import { useMemo, useState } from 'react';
 import {
   ArrowRight,
-  ChevronDown,
   MapPin,
   MessageCircle,
   Truck,
@@ -58,7 +57,7 @@ function App() {
         </nav>
         <a
           className="nav-order"
-          href={whatsappUrl('Pepppered Kromo', 1)}
+          href={whatsappUrl('Pepppered Kpomo', 1)}
           target="_blank"
           rel="noreferrer"
         >
@@ -72,7 +71,7 @@ function App() {
           <h1>
             PEPPERED
             <br />
-            KROMO
+            KPOMO
           </h1>
           <p className="hero-subtitle">
             Soft, juicy &amp; extra peppered.
@@ -85,7 +84,7 @@ function App() {
             </button>
             <a
               className="text-link"
-              href={whatsappUrl('Pepppered Kromo', 1)}
+              href={whatsappUrl('Pepppered Kpomo', 1)}
               target="_blank"
               rel="noreferrer"
             >
@@ -97,7 +96,7 @@ function App() {
           <div className="image-frame">
             <img
               src="/resources/flyer.jpeg"
-              alt="Peppered Kromo with sliced onions"
+              alt="Peppered Kpomo with sliced onions"
             />
           </div>
           <div className="visual-caption">Amuwo • Lagos</div>
@@ -195,7 +194,7 @@ function App() {
             Straightforward ordering.
           </h2>
           <p>
-            Pepppered Kromo is made for people who want soft, juicy meat with a
+            Pepppered Kpomo is made for people who want soft, juicy meat with a
             serious pepper kick. Choose your pack, tell us how many you want,
             and we will take the order from there.
           </p>
@@ -231,7 +230,7 @@ function App() {
         </div>
         <a
           className="contact-button"
-          href={whatsappUrl('Pepppered Kromo', 1)}
+          href={whatsappUrl('Pepppered Kpomo', 1)}
           target="_blank"
           rel="noreferrer"
         >
@@ -249,7 +248,7 @@ function App() {
         </div>
         <div className="footer-links">
           <a
-            href={whatsappUrl('Pepppered Kromo', 1)}
+            href={whatsappUrl('Pepppered Kpomo', 1)}
             target="_blank"
             rel="noreferrer"
           >
@@ -265,7 +264,7 @@ function App() {
         aria-label="Order on WhatsApp"
         onClick={() =>
           window.open(
-            whatsappUrl('Pepppered Kromo', 1),
+            whatsappUrl('Pepppered Kpomo', 1),
             '_blank',
             'noopener,noreferrer'
           )
