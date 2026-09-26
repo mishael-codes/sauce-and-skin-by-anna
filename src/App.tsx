@@ -51,13 +51,13 @@ function App() {
           <span className="brand-by">by ANNA</span>
         </a>
         <nav className="nav-links" aria-label="Primary navigation">
-          <button onClick={() => scrollTo('menu')}>Menu</button>
-          <button onClick={() => scrollTo('about')}>About</button>
-          <button onClick={() => scrollTo('contact')}>Contact</button>
+          <button onClick={() => scrollTo("menu")}>Menu</button>
+          <button onClick={() => scrollTo("about")}>About</button>
+          <button onClick={() => scrollTo("contact")}>Contact</button>
         </nav>
         <a
           className="nav-order"
-          href={whatsappUrl('Pepppered Kpomo', 1)}
+          href={whatsappUrl("Pepppered Kpomo", 1)}
           target="_blank"
           rel="noreferrer"
         >
@@ -79,12 +79,12 @@ function App() {
             Made to burst with flavour.
           </p>
           <div className="hero-actions">
-            <button className="primary-button" onClick={() => scrollTo('menu')}>
+            <button className="primary-button" onClick={() => scrollTo("menu")}>
               Choose your pack <ArrowRight size={18} />
             </button>
             <a
               className="text-link"
-              href={whatsappUrl('Pepppered Kpomo', 1)}
+              href={whatsappUrl("Pepppered Kpomo", 1)}
               target="_blank"
               rel="noreferrer"
             >
@@ -132,7 +132,7 @@ function App() {
             {sizes.map((size, index) => (
               <button
                 key={size.name}
-                className={`price-row ${selectedSize.name === size.name ? 'selected' : ''}`}
+                className={`price-row ${selectedSize.name === size.name ? "selected" : ""}`}
                 onClick={() => setSelectedSize(size)}
               >
                 <span className="row-number">0{index + 1}</span>
@@ -151,14 +151,16 @@ function App() {
             <div className="quantity-control">
               <button
                 aria-label="Decrease quantity"
-                onClick={() => setQuantity(current => Math.max(1, current - 1))}
+                onClick={() =>
+                  setQuantity((current) => Math.max(1, current - 1))
+                }
               >
                 −
               </button>
               <span>{quantity}</span>
               <button
                 aria-label="Increase quantity"
-                onClick={() => setQuantity(current => current + 1)}
+                onClick={() => setQuantity((current) => current + 1)}
               >
                 +
               </button>
@@ -184,7 +186,10 @@ function App() {
 
       <section className="story-section" id="about">
         <div className="story-image">
-          <img src="images/logo-removebg-preview.png" alt="Sauce and skin logo" />
+          <img
+            src="images/logo-removebg-preview.png"
+            alt="Sauce and skin logo"
+          />
         </div>
         <div className="story-copy">
           <p className="section-kicker">SAUCE &amp; SKIN BY ANNA</p>
@@ -230,7 +235,7 @@ function App() {
         </div>
         <a
           className="contact-button"
-          href={whatsappUrl('Pepppered Kpomo', 1)}
+          href={whatsappUrl("Pepppered Kpomo", 1)}
           target="_blank"
           rel="noreferrer"
         >
@@ -242,20 +247,33 @@ function App() {
         <div className="footer-brand">
           <span className="brand-name">SAUCE &amp; SKIN</span>
           <span className="brand-by">by ANNA</span>
+          <div>
+            <span>
+              Built by{" "}
+              <a
+                href="https://shaelsystems.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Shael Systems
+              </a>
+            </span>
+          </div>
         </div>
         <div className="footer-location">
           <MapPin size={16} /> Amuwo, Lagos • First Gate
         </div>
         <div className="footer-links">
           <a
-            href={whatsappUrl('Pepppered Kpomo', 1)}
+            href={whatsappUrl("Pepppered Kpomo", 1)}
             target="_blank"
             rel="noreferrer"
           >
             WhatsApp
           </a>
-          <button onClick={() => scrollTo('menu')}>Menu</button>
-          <button onClick={() => scrollTo('contact')}>Contact</button>
+          <button onClick={() => scrollTo("menu")}>Menu</button>
+          <button onClick={() => scrollTo("contact")}>Contact</button>
         </div>
       </footer>
 
@@ -264,9 +282,9 @@ function App() {
         aria-label="Order on WhatsApp"
         onClick={() =>
           window.open(
-            whatsappUrl('Pepppered Kpomo', 1),
-            '_blank',
-            'noopener,noreferrer'
+            whatsappUrl("Pepppered Kpomo", 1),
+            "_blank",
+            "noopener,noreferrer",
           )
         }
       >
