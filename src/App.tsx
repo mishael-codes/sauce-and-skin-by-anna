@@ -95,7 +95,7 @@ function App() {
         <div className="hero-visual">
           <div className="image-frame">
             <img
-              src="/images/logo-removebg-preview.png"
+              src="/images/logo-removebg-preview.webp"
               alt="Sauce & Skin by Anna logo"
             />
           </div>
@@ -187,7 +187,7 @@ function App() {
       <section className="story-section" id="about">
         <div className="story-image">
           <img
-            src="images/logo-removebg-preview.png"
+            src="images/logo-removebg-preview.webp"
             alt="Sauce and skin logo"
           />
         </div>
