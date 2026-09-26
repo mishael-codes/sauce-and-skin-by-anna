@@ -96,7 +96,7 @@ function App() {
           <div className="image-frame">
             <img
               src="/images/logo-removebg-preview.png"
-              alt="Peppered Kpomo with sliced onions"
+              alt="Sauce & Skin by Anna logo"
             />
           </div>
           <div className="visual-caption">Amuwo • Lagos</div>
