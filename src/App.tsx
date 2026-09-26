@@ -95,7 +95,7 @@ function App() {
         <div className="hero-visual">
           <div className="image-frame">
             <img
-              src="/resources/flyer.jpeg"
+              src="/images/logo-removebg-preview.png"
               alt="Peppered Kpomo with sliced onions"
             />
           </div>
@@ -184,7 +184,7 @@ function App() {
 
       <section className="story-section" id="about">
         <div className="story-image">
-          <img src="/resources/flyer.jpeg" alt="" />
+          <img src="images/logo-removebg-preview.png" alt="Sauce and skin logo" />
         </div>
         <div className="story-copy">
           <p className="section-kicker">SAUCE &amp; SKIN BY ANNA</p>

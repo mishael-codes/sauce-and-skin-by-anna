@@ -192,8 +192,8 @@ h1 {
 }
 .image-frame {
   padding: 18px;
-  background: #8c0a31;
-  border: 1px solid #a56e2f;
+  /* background: #8c0a31; */
+  /* border: 1px solid #a56e2f; */
 }
 .image-frame img {
   display: block;
